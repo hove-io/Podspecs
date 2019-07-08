@@ -6,12 +6,12 @@ Pod::Spec.new do |s|
   s.homepage           = "https://github.com/CanalTP/NavitiaSDKPartners_ios"
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :http => "http://sdk-artifactory.justride.com/artifactory/ios-artifacts/1.3.0/JustRideSDK.framework.zip" }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-snapshot/partners/1.0.1/NavitiaSDKPartners.framework.zip" }
   s.platform           = :ios, "9.0"
-  #s.dependency	       'JustRideSDK', '1.1.1'
+  s.dependency	       'JustRideSDK', '1.1.1'
   s.dependency	       'Swinject', '2.6.0'
   s.exclude_files      = "NavitiaSDKPartners/NavitiaSDKPartnersTests/*", "NavitiaSDKPartners/Pods"
  # s.source_files       = "NavitiaSDKPartners/**/*.{h,m,swift}", "NavitiaSDKPartners/**/**/*.{h,m,swift}", "NavitiaSDKPartners/**/**/**/*.{h,m,swift}", "NavitiaSDKPartners/**/**/**/**/*.{h,m,swift}"
   s.module_name        = "NavitiaSDKPartners"
-  s.vendored_frameworks = 'JustRideSDK.framework'
+  s.vendored_frameworks = 'NavitiaSDKPartners.framework'
 end
