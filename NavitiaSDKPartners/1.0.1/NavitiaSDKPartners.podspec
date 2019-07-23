@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage           = "https://github.com/CanalTP/NavitiaSDKPartners_ios"
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/list/ios-snapshot/partners/1.0.1/NavitiaSDKPartners.framework.zip", :sha1 => '7c803534d7a8b8e74e13f0d36ec9b35d61c019d9' }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/NavitiaSDKPartners/1.0.1/NavitiaSDKPartners.framework.zip", :sha1 => '7c803534d7a8b8e74e13f0d36ec9b35d61c019d9' }
   s.platform           = :ios, "9.0"
   s.dependency	       'JustRideSDK', '1.1.1'
   s.dependency	       'Swinject', '2.6.0'
