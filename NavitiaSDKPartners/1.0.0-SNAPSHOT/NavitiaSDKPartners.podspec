@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name               = "NavitiaSDKPartners"
-  s.version            = "1.0.0-SNAPSHOT"
+  s.version            = "1.0.0-snapshot"
   s.swift_version      = '4.0'
   s.summary            = "Navitia SDK including account management, book management and ticket management"
   s.homepage           = "https://github.com/CanalTP/NavitiaSDKPartners_ios"
