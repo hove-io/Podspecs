@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name               = "Collect"
-  s.version            = "1.1.0"
+  s.version            = "1.1"
   s.summary            = "Kisio SDK collecting data from your last journeys"
   s.homepage           = "https://github.com/CanalTP/Collect_ios"
   s.license            = "License"
