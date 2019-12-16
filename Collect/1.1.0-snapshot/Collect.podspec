@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license            = "License"
   s.swift_versions     = '5'
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-snapshot/collect/#{s.version}/Collect.framework.zip", :sha1 => '938af36ad3eccaa0e0e8dd74a6cb1ebec9155db1' }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-snapshot/collect/#{s.version}/Collect.framework.zip", :sha1 => '3f82af13a22d17e7e03f85cd648fa0daf13abe88' }
   s.platform           = :ios, "9.0"
   s.source_files       = "Collect/**/*.{h,m,swift}", "Collect/*.{h,m,swift}", "*.{h,m,swift}"
   s.module_name        = "Collect"
