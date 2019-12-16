@@ -8,9 +8,10 @@ Pod::Spec.new do |s|
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
   s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-snapshot/partners/#{s.version}/NavitiaSDKPartners.framework.zip", :sha1 => 'b5f631587f3f1f310722ec9a24d0995b3b910fcb' }
   s.platform           = :ios, "9.0"
-  s.dependency	       'JustRideSDK', '1.1.1'
-  s.dependency         'OHHTTPStubs/Swift', '8.0.0'
-  s.dependency	       'Swinject', '2.6.0'
+  s.dependency	        'CryptoSwift', '1.0.0'
+  s.dependency	        'JustRideSDK'
+  s.dependency	        'Swinject'
+  s.dependency          'OHHTTPStubs/Swift'
   s.exclude_files      = "NavitiaSDKPartners/NavitiaSDKPartnersTests/*", "NavitiaSDKPartners/Pods"
   s.module_name        = "NavitiaSDKPartners"
   s.vendored_frameworks = 'NavitiaSDKPartners.framework'
