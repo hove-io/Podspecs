@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary       = 'SDK for booking transport tickets (iOS platform)'
   spec.source        = { :git => 'https://github.com/CanalTP/BookTicketSDK_ios' }
   spec.authors       = { 'Kisio Digital' => 'contact@kisio.com' }
-  spec.license       = { :file => 'LICENSE' }
+  spec.license       = "License"
   spec.module_name   = 'BookTicketSDK'
   spec.swift_version = '5.0'
 
