@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.module_name   = 'BookTicketSDK'
   spec.swift_version = '5.0'
 
-  spec.source              = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-snapshot/bookTicket/#{spec.version}/BookTicketSDK.framework.zip", :sha1 => '69e9fd4ebda5bca08fbb0fd437807c47a4af4c56' }
+  spec.source              = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-snapshot/bookTicket/#{spec.version}/BookTicketSDK.framework.zip", :sha1 => '26e5beaa17c315c7d11748671b756a3dee1b317e' }
   spec.platform            = :ios, "9.0"
   spec.dependency          'JustRideSDK', '2.0.2'
   spec.dependency          'NavitiaSDKPartners', '1.0.0-snapshot'
