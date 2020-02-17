@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.dependency         'JustRideSDK', '2.0.2'
   s.dependency         'Swinject', '2.7.1'
   s.dependency         'OHHTTPStubs/Swift', '8.0.0'
-  s.dependency         'Toolbox', '0.1.1-snapshot'
+  s.dependency         'Toolbox', '0.1.2-snapshot'
 
   s.exclude_files      = "NavitiaSDKPartners/NavitiaSDKPartnersTests/*", "NavitiaSDKPartners/Pods"
   s.module_name        = "NavitiaSDKPartners"
