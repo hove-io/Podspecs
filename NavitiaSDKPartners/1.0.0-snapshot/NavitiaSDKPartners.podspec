@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-snapshot/partners/#{s.version}/NavitiaSDKPartners.framework.zip", :sha1 => 'e3d4f26f945f39928011ddae6aa119189c926c17' }
   s.platform           = :ios, "9.0"
 
-  s.dependency         'CryptoSwift', '1.3.0'
-  s.dependency         'JustRideSDK', '2.0.2'
-  s.dependency         'Swinject', '2.7.1'
-  s.dependency         'OHHTTPStubs/Swift', '8.0.0'
+  s.dependency         'CryptoSwift'
+  s.dependency         'JustRideSDK'
+  s.dependency         'Swinject'
+  s.dependency         'OHHTTPStubs/Swift'
   s.dependency         'Toolbox', '0.1.2-snapshot'
 
   s.exclude_files      = "NavitiaSDKPartners/NavitiaSDKPartnersTests/*", "NavitiaSDKPartners/Pods"
