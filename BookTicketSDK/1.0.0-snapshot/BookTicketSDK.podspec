@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.source              = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-snapshot/bookTicket/#{spec.version}/BookTicketSDK.framework.zip", :sha1 => '9862c2162994c31a861a3173dd013543f2d1ad5c' }
   spec.platform            = :ios, "9.0"
 
-  spec.dependency          'JustRideSDK', '2.0.2'
+  spec.dependency          'JustRideSDK'
   spec.dependency          'NavitiaSDKPartners', '1.0.1-91-SNAPSHOT'
 
   spec.exclude_files       = "BookTicketSDKTests/*", "Pods"
