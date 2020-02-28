@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform            = :ios, "9.0"
 
   spec.dependency          'JustRideSDK', '2.0.2'
-  spec.dependency          'NavitiaSDKPartners', '1.0.0-snapshot'
+  spec.dependency          'NavitiaSDKPartners', '1.0.1-91-SNAPSHOT'
 
   spec.exclude_files       = "BookTicketSDKTests/*", "Pods"
   spec.module_name         = "BookTicketSDK"
