@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "9.0"
 
   s.dependency         'CryptoSwift', '1.3.0'
-  s.dependency         'JustRideSDK', '2.0.2'
+  s.dependency         'JustRideSDK', '2.4.2'
   s.dependency         'Swinject', '2.7.1'
   s.dependency         'OHHTTPStubs/Swift', '8.0.0'
   s.dependency         'Toolbox', '0.1.2-snapshot'
