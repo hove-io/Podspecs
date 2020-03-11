@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = 'BookTicketSDK'
-  spec.version       = '1.0.0-snapshot'
+  spec.version       = '0.5.0-snapshot'
   spec.homepage      = 'https://github.com/CanalTP/BookTicketSDK_ios'
   spec.summary       = 'SDK for booking transport tickets (iOS platform)'
   spec.authors       = { 'Kisio Digital' => 'contact@kisio.com' }
