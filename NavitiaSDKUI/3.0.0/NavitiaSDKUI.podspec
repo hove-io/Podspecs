@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/CanalTP/NavitiaSDKUX_ios'
   s.summary          = 'An awesome framework to offer cool transport stuff to your users'
   s.license          = "License"
-  s.module_name      = 'BookTicketSDK'
+  s.module_name      = 'NavitiaSDKUI'
   s.swift_version    = '5.0'
-  s.authors          = { 'Kisio Digital' => 'contact@kisio.org' }
+  s.authors          = { 'Kisio Digital' => 'team.sdk@kisio.org' }
   s.description      = <<-DESC
   This SDK provides journey computation screens you can add to your application.
                        DESC
@@ -15,6 +15,5 @@ Pod::Spec.new do |s|
   s.platform         = :ios, "9.0"
 
   s.exclude_files       = "NavitiaSDKUITests/*"
-  s.module_name         = "NavitiaSDKUI"
   s.vendored_frameworks = 'NavitiaSDKUI.framework'
 end
