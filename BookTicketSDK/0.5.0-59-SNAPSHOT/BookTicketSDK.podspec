@@ -1,4 +1,3 @@
- 
 Pod::Spec.new do |s|
   s.name          = 'BookTicketSDK'
   s.version       = '0.5.0-59-SNAPSHOT'
@@ -17,5 +16,5 @@ Pod::Spec.new do |s|
   s.exclude_files       = "BookTicketSDKTests/*", "Pods"
   s.module_name         = "BookTicketSDK"
   s.vendored_frameworks = 'BookTicketSDK.framework'
-  s.ios.framework       = 'UIKit''
+  s.ios.framework       = 'UIKit'
 end
