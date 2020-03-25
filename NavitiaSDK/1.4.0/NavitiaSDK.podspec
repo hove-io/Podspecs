@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.authors = { 'Kisio Digital' => 'team.sdk@kisio.org' }
     s.description = 'Navitia client'
   
-    s.source  = { :http => "https://kisiodigital.jfrog.io/artifactory/ios-release/expert/#{s.version}/NavitiaSDK.framework.zip", :sha1 => '23739d069f4d2f2c779bd4ef1cd8b0d9547de7b6' }
+    s.source  = { :http => "https://kisiodigital.jfrog.io/artifactory/ios-release/expert/#{s.version}/NavitiaSDK.framework.zip", :sha1 => '1673a40fde6c0330a44fa7313840136d7bbf863b' }
     s.platform         = :ios, "10.0"
     s.dependency 'Alamofire', '5.0.4'
     s.source_files = 'NavitiaSDK/Classes/**/*.swift', 'NavitiaSDK/Classes/**/*.h'
