@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform         = :ios, "10.0"
   
   s.dependency 'NavitiaSDK', '1.4.0'
-  s.dependency 'Toolbox', '0.2.0-76-SNAPSHOT'
+  s.dependency 'Toolbox', '0.9.0'
   s.exclude_files       = "NavitiaSDKUITests/*"
   s.vendored_frameworks = 'NavitiaSDKUI.framework'
 end
