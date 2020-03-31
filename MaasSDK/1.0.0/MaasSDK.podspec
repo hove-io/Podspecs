@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage                = "https://github.com/CanalTP/MaasSDK_ios"
     s.license                 = "License"
     s.author                  = { "SDK Team" => "team.sdk@kisio.com" }
-    s.source                  = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/maas/1.0.0/MaasSDK.framework.zip", :sha1 => '7a54f0cc6cb6f0d89a2885e6f177955c3b2e519b' }
+    s.source                  = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/maas/1.0.0/MaasSDK.framework.zip", :sha1 => '5ee3d8e41be6b12b947523db74fed9493130f026' }
     s.ios.deployment_target   = '10.0'
   
     s.dependency              'NavitiaSDKUI'
