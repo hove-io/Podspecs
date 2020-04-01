@@ -1,6 +1,6 @@
  
 Pod::Spec.new do |s|
-  s.name               = "Toolbox"
+  s.name               = "Toolbox_snapshot"
   s.version            = '0.9.1-91-SNAPSHOT'
   s.swift_version      = '5.0'
   s.summary            = "Toolbox SDK for Kisio"
