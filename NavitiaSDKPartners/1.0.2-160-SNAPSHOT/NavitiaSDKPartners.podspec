@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "9.0"
 
   s.dependency         'JustRideSDK', '2.3.0'
-  s.dependency         'Toolbox', '0.9.1-91-SNAPSHOT'
+  s.dependency         'Toolbox_snapshot', '0.9.1-102-SNAPSHOT'
 
   s.exclude_files       = "NavitiaSDKPartners/NavitiaSDKPartnersTests/*"
   s.module_name         = "NavitiaSDKPartners"
