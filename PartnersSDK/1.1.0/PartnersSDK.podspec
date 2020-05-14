@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "10.0"
 
   s.dependency         'JustRideSDK', '2.3.0'
-  s.dependency         'Toolbox', '0.9.3'
+  s.dependency         'Toolbox', '0.9.4'
 
   s.exclude_files       = "PartnersSDK/PartnersSDKTests/*"
   s.module_name         = "PartnersSDK"
