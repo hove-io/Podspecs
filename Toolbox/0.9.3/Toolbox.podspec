@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
   s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/toolbox/0.9.3/Toolbox.framework.zip", :sha1 => 'e45da2d4c31b629c7b2356efaed6bda8db0295ae' }
-  s.platform           = :ios, "9.0"
+  s.platform           = :ios, "10.0"
 
   s.dependency         'CryptoSwift'
   s.dependency         'OHHTTPStubs/Swift'
