@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.source              = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/journey/3.3.0/NavitiaSDKUI.framework.zip", :sha1 => '9014dbb09dcb4ef8e8de500d319d5e7702957bb2' }
   s.platform            = :ios, "10.0"
   
-  s.dependency         'NavitiaSDK', '1.4.2'
-s.dependency         'Toolbox', '0.9.4'
+  s.dependency         'NavitiaSDK', '1.4.3'
+  s.dependency         'Toolbox', '0.9.4'
 
   s.module_name         = "NavitiaSDKUI"
   s.vendored_frameworks = 'NavitiaSDKUI.framework'
