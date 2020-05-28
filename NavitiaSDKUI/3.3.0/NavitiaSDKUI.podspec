@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage            = 'https://github.com/CanalTP/NavitiaSDKUX_ios'
   s.license             = { :type => 'GPL-3', :file => 'LICENSE' }
   s.authors             = { 'Kisio Digital' => 'team.sdk@kisio.org' }
-  s.source              = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/journey/3.3.0/NavitiaSDKUI.framework.zip", :sha1 => '9014dbb09dcb4ef8e8de500d319d5e7702957bb2' }
+  s.source              = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/journey/3.3.0/NavitiaSDKUI.framework.zip", :sha1 => '36001a97cd4904780c589d2d504a059d56d32f67' }
   s.platform            = :ios, "10.0"
   
   s.dependency         'NavitiaSDK', '1.4.3'
