@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source          = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/bookTicket/0.6.3/BookTicketSDK.framework.zip", :sha1 => '2b3530f5dfaecca86b9aefaee0186cf305ddb7a5' }
   s.platform        = :ios, "10.0"
 
-  s.dependency         'PartnersSDK', '1.1.1'
+  s.dependency         'PartnersSDK', '1.1.2'
 
   s.exclude_files       = "BookTicketSDKTests/*", "Pods"
   s.module_name         = "BookTicketSDK"
