@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   
   s.dependency         'NavitiaSDK', '1.4.4'
 s.dependency         'Toolbox', '1.0.1'
+  s.dependency         'RouterSDK', '0.2.2'
 
   s.module_name         = "NavitiaSDKUI"
   s.vendored_frameworks = 'NavitiaSDKUI.xcframework'
