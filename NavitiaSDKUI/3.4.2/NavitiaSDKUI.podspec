@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
 s.dependency         'Toolbox', '1.0.1'
 
   s.module_name         = "NavitiaSDKUI"
-  s.vendored_frameworks = 'NavitiaSDKUI.framework'
+  s.vendored_frameworks = 'NavitiaSDKUI.xcframework'
 end
