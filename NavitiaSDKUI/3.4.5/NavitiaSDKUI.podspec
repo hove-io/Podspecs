@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   s.dependency          'Cosmos', '23.0.0'
   s.dependency         'NavitiaSDK', '1.4.4'
-s.dependency         'Toolbox', '1.0.0'
+s.dependency         'Toolbox', '1.0.2'
 s.dependency         'RouterSDK', '0.2.2'
 
   s.module_name         = "NavitiaSDKUI"
