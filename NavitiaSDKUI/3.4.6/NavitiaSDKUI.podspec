@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.platform            = :ios, "10.0"
   
   s.dependency          'Cosmos', '23.0.0'
-  s.dependency          'NavitiaSDK', '1.4.6'
-  s.dependency          'Toolbox', '1.0.4'
-  s.dependency          'RouterSDK', '0.2.4'
+  s.dependency          'NavitiaSDK', '1.4.5'
+  s.dependency          'Toolbox', '1.0.3'
+  s.dependency          'RouterSDK', '0.2.3'
 
   s.module_name         = "NavitiaSDKUI"
   s.vendored_frameworks = 'NavitiaSDKUI.framework'
