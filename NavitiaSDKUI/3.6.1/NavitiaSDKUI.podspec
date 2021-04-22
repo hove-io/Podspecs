@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.dependency         'NavitiaSDK', '1.5.0'
 s.dependency         'ToolboxEngine', '1.0.4'
 s.dependency         'RouterEngine', '0.3.0'
-s.dependency         'DesignEngine', '1.1.0'
+s.dependency         'DesignEngine', '1.1.3'
 
   s.module_name         = "NavitiaSDKUI"
   s.vendored_frameworks = 'NavitiaSDKUI.framework'
