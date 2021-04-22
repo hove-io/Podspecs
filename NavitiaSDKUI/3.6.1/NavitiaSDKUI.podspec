@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   s.dependency          'Cosmos', '23.0.0'
   s.dependency         'NavitiaSDK', '1.5.0'
-s.dependency         'ToolboxEngine', '1.0.4'
+s.dependency         'ToolboxEngine', '1.0.5'
 s.dependency         'RouterEngine', '0.3.0'
 s.dependency         'DesignEngine', '1.1.3'
 
