@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.dependency         'NavitiaSDK', '1.4.4'
 s.dependency         'Toolbox', '1.0.2'
 s.dependency         'DesignSDK', '1.0.0'
-s.dependency         'Router', '0.2.2'
+s.dependency         'RouterSDK', '0.2.2'
   
   s.exclude_files       = "AroundMeSDK/AroundMeSDKTests/*"
   s.module_name         = "AroundMeSDK"
