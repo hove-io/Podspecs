@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage            = 'https://github.com/CanalTP/journey_ios'
   s.license             = { :type => 'GPL-3', :file => 'LICENSE.md' }
   s.authors             = { 'Kisio Digital' => 'team.sdk@kisio.org' }
-  s.source              = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/journey/3.7.0/JourneySDK.framework.zip", :sha1 => '640b38c95710de6d1984542dccb893a16effea64' }
+  s.source              = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/journey/3.7.0/JourneySDK.framework.zip", :sha1 => 'b9fe223571ff9817b3d4c6689bc3ee8cf5c58104' }
   s.platform            = :ios, "10.0"
   
   s.dependency          'Cosmos', '23.0.0'
