@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage           = "https://github.com/CanalTP/toolbox_ios"
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/toolbox/1.1.0/ToolboxEngine.framework.zip", :sha1 => 'a2c673b485b41990ee77198253d25b1a2ebeff0e' }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/toolbox/1.1.0/ToolboxEngine.framework.zip", :sha1 => 'b5d6344405c2be774f67b1585144bacee2e6f9dc' }
   s.platform           = :ios, "10.0"
 
   s.dependency         'CryptoSwift'
