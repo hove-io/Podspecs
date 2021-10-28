@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.dependency         'DesignEngine', '1.4.0'
   s.dependency         'RouterEngine', '0.4.1'
   s.dependency         'RealmSwift', '10.17.0'
-  s.dependency         'MaterialComponents/BottomSheet'
+  s.dependency         'MaterialComponents/BottomSheet', '124.2.0'
   
   s.exclude_files       = "AroundMeSDK/AroundMeSDKTests/*"
   s.module_name         = "AroundMeSDK"
