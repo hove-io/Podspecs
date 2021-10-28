@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/design/1.4.1/DesignEngine.framework.zip", :sha1 => '84ead0444bca9000e189fae5f730aa543672be86' }
   s.platform           = :ios, "10.0"
 
-  s.dependency         'ToolboxEngine', '1.3.0'
+  s.dependency         'ToolboxEngine', '1.4.1'
   
   s.exclude_files       = "DesignEngine/DesignEngineTests/*"
   s.module_name         = "DesignEngine"
