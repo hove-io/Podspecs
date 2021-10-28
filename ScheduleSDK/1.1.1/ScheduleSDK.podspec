@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "10.0"
 
   s.dependency         'NavitiaSDK', '2.1.0'
-s.dependency         'ToolboxEngine', '1.3.0'
+s.dependency         'ToolboxEngine', '1.4.0'
 s.dependency         'DesignEngine', '1.4.1'
   s.dependency         'RxSwift', '6.1.0'
   s.dependency         'RxCocoa', '6.1.0'
