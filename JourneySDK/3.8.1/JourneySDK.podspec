@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source              = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/journey/3.8.1/JourneySDK.framework.zip", :sha1 => '7ed4490a72530237afaee3cd0524dbd0b92125be' }
   s.platform            = :ios, "10.0"
   
-  s.dependency          'MaterialComponents/BottomSheet'
+  s.dependency          'MaterialComponents/BottomSheet', '124.2.0'
   s.dependency          'Cosmos', '23.0.0'
   s.dependency          'Charts', '3.6.0'
   s.dependency         'NavitiaSDK', '2.1.0'
