@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
-  s.name               = "AroundMeSDK_local"
-  s.version            = "0.2.0-31-local"
+  s.name               = "AroundMeSDK"
+  s.version            = "2.0.0"
   s.platform           = :ios, "10.0"
   s.swift_version      = '5.2'
   s.summary            = "AroundMeSDK for Kisio. Show whats around user within your application."
