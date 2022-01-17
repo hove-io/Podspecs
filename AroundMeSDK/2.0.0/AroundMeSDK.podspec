@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.homepage           = "https://github.com/CanalTP/aroundme_ios"
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :git => "git@github.com:CanalTP/aroundme_ios.git" , :branch => 'develop' }
-
+  s.source             = { :http => "https://kisiodigital.jfrog.io/artifactory/ios-release/aroundme/2.0.0/AroundMeSDK.framework.zip", :sha1 => 'ee612281c1240569683923e897ddccf4bf84ced5' }
+  
   s.dependency         'NavitiaSDK', '2.1.1'
   s.dependency         'ToolboxEngine', '1.4.1'
   s.dependency         'DesignEngine', '2.0.0'
