@@ -12,9 +12,6 @@ Pod::Spec.new do |s|
 
   s.dependency         'ToolboxEngine', '1.4.1'
   
-  s.exclude_files      = "RouterEngine/RouterEngineTests/*"
-  s.module_name        = "RouterEngine"
-
   s.exclude_files       = "RouterEngine/RouterEngineTests/*"
   s.module_name         = "RouterEngine"
   s.vendored_frameworks = 'RouterEngine.framework'
