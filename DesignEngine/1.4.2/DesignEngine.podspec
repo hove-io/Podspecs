@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.homepage           = "https://github.com/CanalTP/design_ios"
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/design/1.4.2/DesignEngine.framework.zip", :sha1 => '4702f5b14394c72e91ba3ab95a132ce3303973da' }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/design/1.4.2/DesignEngine.framework.zip", :sha1 => '52287b0b561b5835cbb28fb2533552721c298214' }
   s.platform           = :ios, "10.0"
   
-  s.dependency         'ToolboxEngine', '1.4.1'
+  s.dependency         'ToolboxEngine', '1.5.0'
   
   s.exclude_files       = "DesignEngine/DesignEngineTests/*"
   s.module_name         = "DesignEngine"
