@@ -1,23 +1,16 @@
-
 Pod::Spec.new do |s|
-  s.name               = "RouterEngine_local"
-  s.version            = "0.4.2"
-  s.platform           = :ios, "10.0"
-  s.swift_version      = '5.0'
-  s.summary            = "Router Engine Module for Kisio SDK"
-  s.homepage           = "https://github.com/CanalTP/router_ios"
-  s.license            = "License"
-  s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :git => "git@github.com:CanalTP/router_ios.git" , :branch => 'develop' }
+  s.name                = "RouterEngine"
+  s.version             = '0.4.3'
+  s.swift_version       = '5.0'
 
-  s.dependency         'ToolboxEngine', '1.5.0'
+  s.homepage            = 'https://github.com/CanalTP/journey_ios'
+  s.license             = { :type => 'GPL-3', :file => 'LICENSE.md' }
+  s.authors             = { 'Kisio Digital' => 'team.sdk@kisio.org' }
+  s.source              = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/router/0.4.3/RouterEngine.framework.zip", :sha1 => 'c40614f827a97eee491887b25070f10851d9a6b3' }
+  s.platform            = :ios, "10.0"
   
-  s.exclude_files      = "RouterEngine/RouterEngineTests/*"
-  s.module_name        = "RouterEngine"
+  s.dependency         'ToolboxEngine', '1.5.0'
 
-  # Required for development Pods
-  s.source_files        = "RouterEngine/RouterEngine/**/**/*.{h,m,swift}", 
-                          "RouterEngine/RouterEngine/**/*.{h,m,swift}", 
-                          "RouterEngine/RouterEngine/*.{h,m,swift}"
+  s.module_name         = "RouterEngine"
   s.vendored_frameworks = 'RouterEngine.framework'
 end
