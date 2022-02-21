@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.dependency          'Charts', '3.6.0'
   s.dependency         'NavitiaSDK', '2.1.1'
   s.dependency         'ToolboxEngine', '1.5.0'
-  s.dependency         'RouterEngine', '0.4.2'
+  s.dependency         'RouterEngine', '0.4.3'
   s.dependency         'DesignEngine', '1.4.2'
 
   s.module_name         = "JourneySDK"
