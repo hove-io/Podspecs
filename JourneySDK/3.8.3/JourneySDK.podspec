@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name                = "JourneySDK"
-  s.version             = '3.8.2'
+  s.version             = '3.8.3'
   s.swift_version       = '5.0'
   s.summary             = 'An awesome framework to offer cool transport stuff to your users'
   s.description         = 'This SDK provides journey computation screens you can add to your application.'
