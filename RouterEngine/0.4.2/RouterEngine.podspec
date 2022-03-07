@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
   s.source             = { :http => "https://kisiodigital.jfrog.io/artifactory/ios-release/router/0.4.2/RouterEngine.framework.zip", :sha1 => '15ee5c66d6a7596ffcafe11a30c60409955bd256' }
   
-  s.dependency         'ToolboxEngine', '1.4.1'
+  s.dependency         'ToolboxEngine', '1.5.0'
   
   s.exclude_files       = "RouterEngine/RouterEngineTests/*"
   s.module_name         = "RouterEngine"
