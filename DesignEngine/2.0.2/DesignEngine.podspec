@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name               = "DesignEngine_local"
+  s.name               = "DesignEngine"
   s.version            = "2.0.2"
   s.platform           = :ios, "10.0"
   s.swift_versions     = ['5.5', '5.5.1', '5.5.2']
