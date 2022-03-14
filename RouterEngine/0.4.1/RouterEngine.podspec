@@ -8,13 +8,13 @@ Pod::Spec.new do |s|
   s.homepage           = "https://github.com/CanalTP/router_ios"
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/router/0.4.1/RouterEngine.framework.zip", :sha1 => "64c765f2466c558fbc70cd4395dfb6b7bcbc6c46" }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/router/0.4.1/RouterEngine.framework.zip", :sha1 => "290b9dcaad6fe14bb345f79e34a4a22b79f92d17" }
 
   s.exclude_files      = "RouterEngine/RouterEngineTests/*"
   s.module_name        = "RouterEngine"
 
   # Required for development Pods
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/router/0.4.1/RouterEngine.framework.zip", :sha1 => "64c765f2466c558fbc70cd4395dfb6b7bcbc6c46" }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/router/0.4.1/RouterEngine.framework.zip", :sha1 => "290b9dcaad6fe14bb345f79e34a4a22b79f92d17" }
                           "RouterEngine/RouterEngine/**/*.{h,m,swift}", 
                           "RouterEngine/RouterEngine/*.{h,m,swift}"
   s.vendored_frameworks = 'RouterEngine.framework'
