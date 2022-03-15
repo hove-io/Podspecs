@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
 
   s.dependency         'NavitiaSDK', '2.1.1'
   s.dependency         'DesignEngine', '2.0.1'
-  s.dependency         'RxSwift', '6.1.0'
-  s.dependency         'RxCocoa', '6.1.0'
+  s.dependency         'RxSwift', '6.0'
+  s.dependency         'RxCocoa', '6.0'
+  s.dependency         'RxDataSources', '5.0.0'
   s.dependency         'RealmSwift', '10.17.0'
   s.dependency         'Action', '5.0.0'
-  s.dependency         'RxDataSources', '5.0.0'
   s.dependency         'MaterialComponents/BottomSheet', '124.2.0'
   s.dependency         'MaterialComponents/Chips', '124.2.0'
   
