@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/aroundme/2.0.1/AroundMeSDK.framework.zip", :sha1 => "b621c6892d0bf6dbdf2df123f7ff25e14c1dcf4d" }
 
   s.dependency         'NavitiaSDK', '2.1.1'
-  s.dependency         'DesignEngine', '2.0.1'
+  s.dependency         'DesignEngine', '2.1.0'
   s.dependency         'RouterEngine', '0.4.1'
   s.dependency         'RealmSwift', '10.17.0'
   s.dependency         'MaterialComponents/ProgressView', '124.2.0'
