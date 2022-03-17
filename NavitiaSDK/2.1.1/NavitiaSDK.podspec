@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name                = 'NavitiaSDK'
+  s.name                = 'NavitiaSDK_local'
   s.version             = "2.1.1"
   s.swift_version       = '5.0'
   s.summary             = 'Navitia client written in Swift 5'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage            = 'https://github.com/CanalTP/NavitiaSDK_ios'
   s.license             = { :type => 'GPLv3', :file => 'LICENSE.md' }
   s.authors             = { 'Kisio Digital' => 'team.sdk@kisio.org' }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/artifactory/ios-release/expert/2.1.1/NavitiaSDK.framework.zip", :sha1 => '6747e52c82fbdd0b09c004df6139635f896ed8e7' }
+  s.source              = { :git => 'https://github.com/CanalTP/NavitiaSDK_ios.git', :tag => s.version.to_s }
   s.platform            = :ios, "10.0"
   
   s.dependency          'Alamofire', '5.0.4'
