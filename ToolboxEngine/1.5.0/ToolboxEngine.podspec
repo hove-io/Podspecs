@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name               = "ToolboxEngine"
   s.version            = "1.5.0"
-  s.swift_version      = '5.0'
+  s.swift_versions     = ['5.5', '5.5.1', '5.5.2', '5.6']
   s.summary            = "Toolbox Engine Module for Kisio SDK"
   s.homepage           = "https://github.com/CanalTP/toolbox_ios"
   s.license            = "License"
