@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                = "RouterEngine"
   s.version             = '0.4.2'
-  s.swift_version       = '5.0'
+  s.swift_versions     = ['5.5', '5.5.1', '5.5.2', '5.6']
 
   s.homepage            = 'https://github.com/CanalTP/journey_ios'
   s.license             = { :type => 'GPL-3', :file => 'LICENSE.md' }
