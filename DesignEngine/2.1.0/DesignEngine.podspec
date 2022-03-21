@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
   s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/design/2.1.0/DesignEngine.framework.zip", :sha1 => "5ee44b62f014bfa5f9283f684226753dbd826257" }
   
-  s.dependency         'ToolboxEngine', '1.4.1'
+  s.dependency         'ToolboxEngine', '1.5.0'
   
   s.exclude_files       = "DesignEngine/DesignEngineTests/*"
   s.module_name         = "DesignEngine"
