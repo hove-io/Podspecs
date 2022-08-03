@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
   s.summary             = 'Navitia client written in Swift 5'
   s.description         = 'Navitia client'
 
-  s.homepage            = 'https://github.com/CanalTP/NavitiaSDK_ios'
+  s.homepage            = 'https://github.com/hove-io/NavitiaSDK_ios'
   s.license             = { :type => 'GPLv3', :file => 'LICENSE.md' }
   s.authors             = { 'Kisio Digital' => 'team.sdk@kisio.org' }
-  s.source              = { :git => 'git@github.com:hove-io/NavitiaSDK_ios.git', :tag => s.version.to_s }
+s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/expert/2.2.0/NavitiaSDK.framework.zip", :sha1 => "7c6d9b32e34caa2d4851c8bc8a22d86cf493da28" }
   s.platform            = :ios, "10.0"
   
   s.dependency          'Alamofire', '5.0.4'
