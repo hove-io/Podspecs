@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage            = 'https://github.com/CanalTP/NavitiaSDK_ios'
   s.license             = { :type => 'GPLv3', :file => 'LICENSE.md' }
   s.authors             = { 'Kisio Digital' => 'team.sdk@kisio.org' }
-  s.source              = { :git => 'https://github.com/CanalTP/NavitiaSDK_ios.git', :tag => s.version.to_s }
+  s.source              = { :git => 'git@github.com:hove-io/NavitiaSDK_ios.git', :tag => s.version.to_s }
   s.platform            = :ios, "10.0"
   
   s.dependency          'Alamofire', '5.0.4'
