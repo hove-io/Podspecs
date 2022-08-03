@@ -14,10 +14,5 @@ Pod::Spec.new do |s|
   
   s.exclude_files      = "RouterEngine/RouterEngineTests/*"
   s.module_name        = "RouterEngine"
-
-  # Required for development Pods
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/router/0.4.4/RouterEngine.framework.zip", :sha1 => "2820f232db139918f1c53ed78f0fd99e0ed9dfca" }
-                          "RouterEngine/RouterEngine/**/*.{h,m,swift}", 
-                          "RouterEngine/RouterEngine/*.{h,m,swift}"
   s.vendored_frameworks = 'RouterEngine.framework'
 end
