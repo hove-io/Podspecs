@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
-  s.name                = 'NavitiaSDK_local'
-  s.version             = "2.1.1"
+  s.name                = 'NavitiaSDK'
+  s.version             = "2.2.0"
   s.swift_version       = '5.0'
   s.summary             = 'Navitia client written in Swift 5'
   s.description         = 'Navitia client'
