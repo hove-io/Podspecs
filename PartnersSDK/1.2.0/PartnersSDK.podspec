@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/partners/1.2.0/PartnersSDK.framework.zip", :sha1 => "33d481a32dedbefeab8fcdaa238f00ef8c3bb011" }
   s.platform           = :ios, "13.0"
 
-  s.dependency         'Toolbox', '1.6.1'
+  s.dependency         'ToolboxEngine', '1.6.1'
   s.dependency         'Swinject', '2.8.2'
   
   s.exclude_files       = "PartnersSDK/PartnersSDKTests/*"
