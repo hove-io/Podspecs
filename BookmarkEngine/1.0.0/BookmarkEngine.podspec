@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/bookmark/1.0.0/BookmarkEngine.framework.zip", :sha1 => "9d364046509e89ca04e0ce3365cef988e7506129" }
 
   s.dependency         'RealmSwift', '10.29.0'
-  s.dependency         'ToolboxEngine', '1.6.0'
+  s.dependency         'ToolboxEngine', '1.6.2'
   
   s.exclude_files      = "BookmarkEngine/BookmarkEngineTests/*"
   s.module_name        = "BookmarkEngine"
