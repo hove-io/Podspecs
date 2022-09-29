@@ -15,10 +15,5 @@ Pod::Spec.new do |s|
   
   s.exclude_files      = "BookmarkEngine/BookmarkEngineTests/*"
   s.module_name        = "BookmarkEngine"
-
-  # Required for development Pods
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/bookmark/1.0.0/BookmarkEngine.framework.zip", :sha1 => "40fbfdd902afdc3da8da3d0545e1c185709e0eb3" }
-                          "BookmarkEngine/BookmarkEngine/**/*.{h,m,swift}", 
-                          "BookmarkEngine/BookmarkEngine/*.{h,m,swift}"
   s.vendored_frameworks = 'BookmarkEngine.framework'
 end
