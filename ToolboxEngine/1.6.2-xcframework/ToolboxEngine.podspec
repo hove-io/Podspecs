@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage           = "https://github.com/hove-io/toolbox_ios"
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/toolbox/1.6.2/ToolboxEngine.xcframework.zip", :sha1 => "dfb8b051690a4ff6260176f0b650e6ccf74aad52" }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/toolbox/1.6.2/ToolboxEngine.xcframework.zip", :sha1 => "589bbe3a26d8ec2e561fc56581f6f1befdb8f029" }
   s.platform           = :ios, "10.0"
 
   s.dependency         'CryptoSwift', '1.6.0'
