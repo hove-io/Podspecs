@@ -1,4 +1,3 @@
-
 Pod::Spec.new do |s|
   s.name               = "DesignEngine"
   s.version            = "2.3.0-xcframework"
@@ -14,5 +13,5 @@ Pod::Spec.new do |s|
 
   s.exclude_files       = "DesignEngine/DesignEngineTests/*"
   s.module_name         = "DesignEngine"
-  s.vendored_frameworks = 'DesignEngine.framework'
+  s.vendored_frameworks = 'DesignEngine.xcframework'
 end
