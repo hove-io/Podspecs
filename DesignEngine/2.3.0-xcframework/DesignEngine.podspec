@@ -1,4 +1,3 @@
-
 Pod::Spec.new do |s|
   s.name               = "DesignEngine"
   s.version            = "2.3.0-xcframework"
@@ -8,11 +7,11 @@ Pod::Spec.new do |s|
   s.homepage           = "https://github.com/hove-io/design_ios"
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/design/2.3.0/DesignEngine.framework.zip", :sha1 => "49628ab1220e9e45bba7e7a30f0419085bd8de6a" }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/design/2.3.0/DesignEngine.xcframework.zip", :sha1 => "3e74d69ff42f21312ec07623147aa369fb533f76" }
 
   s.dependency         'ToolboxEngine', '1.6.2-xcframework'
 
   s.exclude_files       = "DesignEngine/DesignEngineTests/*"
   s.module_name         = "DesignEngine"
-  s.vendored_frameworks = 'DesignEngine.framework'
+  s.vendored_frameworks = 'DesignEngine.xcframework'
 end
