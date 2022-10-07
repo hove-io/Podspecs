@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.homepage            = 'https://github.com/CanalTP/NavitiaSDK_ios'
   s.license             = { :type => 'GPLv3', :file => 'LICENSE.md' }
   s.authors             = { 'Kisio Digital' => 'team.sdk@kisio.org' }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/expert/2.3.0/NavitiaSDK.xcframework.zip", :sha1 => "4a4198b0f8bba1c98df21e7baf4d4af28d75be6b" }
-  s.platform            = :ios, "10.0"
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/expert/2.3.0/NavitiaSDK.xcframework.zip", :sha1 => "409b3d4755f1d60edc0788da318dbd3aa74adc2d" }
+  s.platform            = :ios, "13.0"
   
   s.dependency          'Alamofire', '5.0.4'
 
