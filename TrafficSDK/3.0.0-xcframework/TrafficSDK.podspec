@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage           = "https://github.com/hove-io/traffic_ios"
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/traffic/3.0.0/TrafficSDK.xcframework.zip", :sha1 => "7eec1d361742c6b1be91287ec45facf81574fb32" }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/traffic/3.0.0/TrafficSDK.xcframework.zip", :sha1 => "4311437cd0c329082cb1e4967ce755f44fda4fa9" }
 
   s.dependency         'NavitiaSDK', '2.3.0-xcframework'
   s.dependency         'DesignEngine', '2.3.0-xcframework'
