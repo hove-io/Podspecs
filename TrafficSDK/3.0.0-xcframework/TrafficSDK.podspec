@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.dependency         'RouterEngine', '0.4.5-xcframework'
   s.dependency         'RealmSwift', '10.29.0'
   s.dependency         'MaterialComponents/ProgressView', '124.2.0'
+  s.dependency         'MaterialComponents/BottomSheet', '124.2.0'
 
   s.exclude_files       = "TrafficSDK/TrafficSDKTests/*"
   s.module_name         = "TrafficSDK"
