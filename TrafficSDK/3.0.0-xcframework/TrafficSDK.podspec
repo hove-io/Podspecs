@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.dependency         'NavitiaSDK', '2.3.0-xcframework'
   s.dependency         'DesignEngine', '2.3.0-xcframework'
   s.dependency         'RouterEngine', '0.4.5-xcframework'
-  s.dependency         'RealmSwift', '10.17.0'
+  s.dependency         'RealmSwift', '10.32.0'
   s.dependency         'MaterialComponents/ProgressView', '124.2.0'
   s.dependency         'MaterialComponents/BottomSheet', '124.2.0'
 
