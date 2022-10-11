@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage            = 'https://github.com/CanalTP/journey_ios'
   s.license             = { :type => 'GPL-3', :file => 'LICENSE.md' }
   s.authors             = { 'Kisio Digital' => 'team.sdk@kisio.org' }
-  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/journey/5.1.1/JourneySDK.framework.zip", :sha1 => "db2ee7403bcf25cae57d688e212f710be18bce3d" }
+  s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/journey/5.1.1/JourneySDK.framework.zip", :sha1 => "ca8c839c1273ce1b12f6e28a8731cee62c027d24" }
   s.platform            = :ios, "13.0"
   
   s.dependency          'Cosmos', '23.0.0'
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.dependency          'MaterialComponents/BottomSheet', '124.2.0'
   s.dependency          'FlexLayout', '1.3.23'
   s.dependency          'PinLayout', '1.10.2'
-  s.dependency          'RealmSwift', '10.29.0'
+  s.dependency          'RealmSwift', '10.17.0'
 
   s.module_name         = "JourneySDK"
   s.vendored_frameworks = 'JourneySDK.framework'
