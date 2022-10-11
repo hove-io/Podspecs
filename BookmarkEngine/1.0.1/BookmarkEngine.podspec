@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name               = "BookmarkEngine"
   s.version            = "1.0.1"
-  s.platform           = :ios, "10.0"
+  s.platform           = :ios, "13.0"
   s.swift_versions     = ['5.5', '5.5.1', '5.5.2', '5.6']
   s.summary            = "Bookmark Engine Module for Kisio SDK"
   s.homepage           = "https://github.com/CanalTP/bookmark_ios"
