@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
   s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/traffic/3.0.1/TrafficSDK.framework.zip", :sha1 => "0a78d40b013f5b7f4f3a604c9a4b0836e1c352f2" }
 
-  s.dependency         'NavitiaSDK', '2.3.0'
+  s.dependency         'NavitiaSDK', '2.3.1'
   s.dependency         'DesignEngine', '2.3.0'
   s.dependency         'RouterEngine', '0.4.5'
   s.dependency         'RealmSwift', '10.17.0'
