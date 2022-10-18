@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source             = { :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/schedule/3.0.1/ScheduleSDK.framework.zip", :sha1 => "51758d4fdb4d9c90b239a1c9e70dcbe64397e861" }
 
   s.dependency         'BookmarkEngine', '1.0.1'
-  s.dependency         'NavitiaSDK', '2.3.0'
+  s.dependency         'NavitiaSDK', '2.3.1'
   s.dependency         'DesignEngine', '2.3.0'
   s.dependency         'RxSwift', '6.0'
   s.dependency         'RxCocoa', '6.0'
