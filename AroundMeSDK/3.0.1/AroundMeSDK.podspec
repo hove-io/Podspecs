@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.dependency         'BookmarkEngine', '1.0.1'
   s.dependency         'NavitiaSDK', '2.3.2'
   s.dependency         'DesignEngine', '2.3.0'
-  s.dependency         'RouterEngine', '0.4.5'
+  s.dependency         'RouterEngine', '0.4.6'
   s.dependency         'RealmSwift', '10.17.0'
   s.dependency         'MaterialComponents/BottomSheet', '124.2.0'
   s.dependency         'MaterialComponents/ProgressView', '124.2.0'
