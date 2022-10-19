@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.dependency	        'Charts', '4.1.0'
   s.dependency          'NavitiaSDK', '2.3.2'
   s.dependency          'RouterEngine', '0.4.6'
-  s.dependency          'DesignEngine', '2.3.0'
+  s.dependency          'DesignEngine', '2.3.1'
   s.dependency          'MaterialComponents/BottomSheet', '124.2.0'
   s.dependency          'FlexLayout', '1.3.23'
   s.dependency          'PinLayout', '1.10.2'
