@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   }
   s.exclude_files       = "ToolboxEngine/ToolboxEngineTests/*"
   s.module_name         = "ToolboxEngine"
-  s.vendored_frameworks = 'ToolboxEngine.framework'
+  s.vendored_frameworks = 'ToolboxEngine.xcframework'
 end
