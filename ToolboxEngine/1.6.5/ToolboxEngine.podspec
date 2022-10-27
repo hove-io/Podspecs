@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
   s.license            = "License"
   s.author             = { "SDK Team" => "team.sdk@kisio.com" }
   
-  s.platform            = :ios, "13.0"
+  s.platform           = :ios, "13.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/toolbox/1.6.5/ToolboxEngine.xcframework.zip", 
-    :sha1 => "b8038b221ca3b7af3bbe12d4d442fa739ba8c7b0"
+    :sha1 => "bcae8e11f355f39f29af4818374967cb9e344cc6"
   }
   s.exclude_files       = "ToolboxEngine/ToolboxEngineTests/*"
   s.module_name         = "ToolboxEngine"
