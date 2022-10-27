@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "13.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/toolbox/1.6.5/ToolboxEngine.xcframework.zip", 
-    :sha1 => "ea09a547d77a2b6c74afa13bf0072a9745290a65"
+    :sha1 => "e6ffd79c321510a89a92a48e810b3ba045fe39c0"
   }
   s.exclude_files       = "ToolboxEngine/ToolboxEngineTests/*"
   s.module_name         = "ToolboxEngine"
