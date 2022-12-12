@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     :sha1 => "5b5546fcb3101b21ed32d4507b22022ed84b786c"
   }
 
-  s.dependency         'NavitiaSDK', '2.3.3'
+  s.dependency         'NavitiaSDK', '2.3.2'
   s.dependency         'DesignEngine', '2.3.1'
   s.dependency         'RouterEngine', '0.4.6'
   s.dependency         'RealmSwift', '10.17.0'
