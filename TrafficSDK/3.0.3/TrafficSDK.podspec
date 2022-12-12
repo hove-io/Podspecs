@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.dependency         'NavitiaSDK', '2.3.3'
   s.dependency         'DesignEngine', '2.3.1'
-  s.dependency         'RouterEngine', '0.4.7'
+  s.dependency         'RouterEngine', '0.4.6'
   s.dependency         'RealmSwift', '10.17.0'
   s.dependency         'MaterialComponents/BottomSheet', '124.2.0'
 
