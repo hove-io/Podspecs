@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     :sha1 => "5507c2e6cfc8959f9651d6387f4562f344f23db5"
   }
 
-  s.dependency         'ToolboxEngine', '1.6.5'
+  s.dependency         'ToolboxEngine', '1.6.6'
 
   s.exclude_files       = "RouterEngine/RouterEngineTests/*"
   s.module_name         = "RouterEngine"
