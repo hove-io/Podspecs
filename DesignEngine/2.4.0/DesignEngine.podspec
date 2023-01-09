@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     :sha1 => "1934a867db23e6a533ed3f6e25a5c9c242891175"
   }
 
-  s.dependency         'ToolboxEngine', '1.6.5'
+  s.dependency         'ToolboxEngine', '1.6.6'
 
   s.exclude_files       = "DesignEngine/DesignEngineTests/*"
   s.module_name         = "DesignEngine"
