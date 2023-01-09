@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "13.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/design/2.4.0/DesignEngine.xcframework.zip", 
-    :sha1 => "1934a867db23e6a533ed3f6e25a5c9c242891175"
+    :sha1 => "4ebef10e593cd61664d39e13cd9b83e035683e6f"
   }
 
   s.dependency         'ToolboxEngine', '1.6.6'
