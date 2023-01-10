@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
     :sha1 => "7139b015eef7b380556acb7ec452a5dd387b1385"
   }
 
-  s.dependency         'SnapshotTesting', '1.9.0'
   s.dependency         'swift-numerics', '1.0.2'
 
   s.exclude_files       = "GraphEngine/GraphEngineTests/*"
