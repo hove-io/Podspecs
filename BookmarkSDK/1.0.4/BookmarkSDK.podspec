@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "13.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/bookmark/1.0.4/BookmarkSDK.xcframework.zip", 
-    :sha1 => "04b101dc99c5a63e5da7c89d15b84896366e7c74"
+    :sha1 => "4f92371afb732010eb5ef9e914081d6b3a3bc86f"
   }
 
   s.dependency         'RealmSwift', '10.17.0'
