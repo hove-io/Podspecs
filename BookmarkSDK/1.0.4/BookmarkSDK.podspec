@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.dependency         'RealmSwift', '10.17.0'
   s.dependency         'ToolboxEngine', '1.6.6'
 
-  s.exclude_files       = "BookmarkEngine/BookmarkEngineTests/*"
-  s.module_name         = "BookmarkEngine"
-  s.vendored_frameworks = 'BookmarkEngine.xcframework'
+  s.exclude_files       = "BookmarkSDK/BookmarkEngineTests/*"
+  s.module_name         = "BookmarkSDK"
+  s.vendored_frameworks = 'BookmarkSDK.xcframework'
 end
