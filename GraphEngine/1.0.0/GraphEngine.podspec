@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "13.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/graph/1.0.0/GraphEngine.xcframework.zip", 
-    :sha1 => "7139b015eef7b380556acb7ec452a5dd387b1385"
+    :sha1 => "5b74b8079ad1df5bde615fc11887048f5b9c2bc4"
   }
 
   s.dependency         'swift-numerics', '1.0.2'
