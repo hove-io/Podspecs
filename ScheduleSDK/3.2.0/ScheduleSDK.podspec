@@ -17,6 +17,11 @@ Pod::Spec.new do |s|
   s.dependency         'DesignEngine', '2.5.0'
   s.dependency         'RouterEngine', '0.6.0'
   
+  s.dependency         'RxSwift', '6.1.0'
+  s.dependency         'RxCocoa', '6.1.0'
+  s.dependency         'Action', '5.0.0'
+  s.dependency         'RxDataSources', '5.0.0'
+  
   s.dependency         'RealmSwift', '10.17.0'
   s.dependency         'MaterialComponents/BottomSheet', '124.2.0'
   s.dependency         'FlexLayout', '1.3.23'
