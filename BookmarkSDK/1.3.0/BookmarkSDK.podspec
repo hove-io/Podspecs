@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "14.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/bookmark/1.3.0/BookmarkSDK.xcframework.zip", 
-    :sha1 => "fae49dda9a62674222b29d2798986bc94fdf0d41"
+    :sha1 => "4f07c7b94c625f52d866c09c14ad7bc26fe02937"
   }
 
   s.dependency          'NavitiaSDK', '2.4.0'
