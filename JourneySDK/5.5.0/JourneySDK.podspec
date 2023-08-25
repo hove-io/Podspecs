@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.dependency          'Cosmos', '23.0.0'
   s.dependency          'FlexLayout', '1.3.31'
   s.dependency          'PinLayout', '1.10.2'
-  s.dependency          'RealmSwift', '10.39.1'
+  s.dependency          'RealmSwift', '10.42.0'
 
   s.exclude_files       = "JourneySDK/JourneySDKTests/*"
   s.module_name         = "JourneySDK"
