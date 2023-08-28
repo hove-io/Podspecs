@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "14.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/aroundme/3.4.0/AroundMeSDK.xcframework.zip", 
-    :sha1 => "f627cb45abd957c0281831a2be4aa8d9693cf56b"
+    :sha1 => "6d7f213a59631182a263e07c4f19d667c28eb384"
   }
 
   s.dependency         'NavitiaSDK', '2.4.0'
