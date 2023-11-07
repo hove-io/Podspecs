@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.dependency          'NavitiaSDK', '2.5.0'
   s.dependency          'RouterEngine', '1.1.0'
   s.dependency          'DesignEngine', '2.8.0'
-  s.dependency          'GraphEngine', '1.0.1'
+  s.dependency          'GraphEngine', '1.0.3'
 
   s.dependency          'Cosmos', '23.0.0'
   s.dependency          'FlexLayout', '1.3.31'
