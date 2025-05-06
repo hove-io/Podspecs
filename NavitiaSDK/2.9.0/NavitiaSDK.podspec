@@ -9,8 +9,10 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "14.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/expert/2.9.0/NavitiaSDK.xcframework.zip", 
-    :sha1 => "85203e71421e82924b43da298188e84c2bde2f47"
+    :sha1 => "6dd4e77dc4766ad0f73216eae76f6de2abd22cbb"
   }
+
+  s.dependency          'Alamofire', '5.10.2'
 
   s.module_name         = "NavitiaSDK"
   s.vendored_frameworks = 'NavitiaSDK.xcframework'
