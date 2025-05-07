@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "16.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/schedule/4.1.2/ScheduleSDK.xcframework.zip", 
-    :sha1 => "3d2176039a29938c749e68324c421a86041bd48f"
+    :sha1 => "be1e19491d6edef77099a71890e402637b89f10f"
   }
 
   s.dependency         'NavitiaSDK', '2.9.1'
