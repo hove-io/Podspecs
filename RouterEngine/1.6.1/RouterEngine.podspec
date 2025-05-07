@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "16.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/router/1.6.1/RouterEngine.xcframework.zip", 
-    :sha1 => "2df58ba7ecc72e5df624bb9dfe0827ec749ddb45"
+    :sha1 => "b6a06ed3b1968deb97b497f49d26d44062d93973"
   }
 
   s.dependency         'ToolboxEngine', '1.17.1'
