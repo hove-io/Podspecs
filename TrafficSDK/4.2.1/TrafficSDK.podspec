@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "16.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/traffic/4.2.1/TrafficSDK.xcframework.zip", 
-    :sha1 => "fe960898715cee25516bfe8c1e0d17183e7a3ff0"
+    :sha1 => "7bb00fa98bab353d010fdafeb1bea418533bdfe8"
   }
 
   s.dependency         'NavitiaSDK', '2.9.1'
