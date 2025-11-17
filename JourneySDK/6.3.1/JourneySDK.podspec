@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "16.0"
   s.source             = { 
     :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/journey/6.3.1/JourneySDK.xcframework.zip", 
-    :sha1 => "6ddab20e61a6de66180b867e8d5f4b6e5027c64c"
+    :sha1 => "987ec63105fff77c2361e079ea8cc1c3ff263f12"
   }
 
   s.dependency          'NavitiaSDK', '2.9.1'
