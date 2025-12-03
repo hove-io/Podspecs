@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   
   s.platform           = :ios, "16.0"
   s.source             = { 
-    :http => "", 
+    :http => "https://kisiodigital.jfrog.io/kisiodigital/ios-release/design/3.4.0/DesignEngine.xcframework.zip", 
     :sha1 => "3d2ceff2ff1dba59d3f61f8e315a0fb3efbc8361"
   }
 
